@@ -122,8 +122,9 @@ p{ margin:0 0 1em; color:var(--text-soft); }
   padding:0 1.5rem;
 }
 .brand{ display:flex; align-items:center; gap:0.7rem; }
-.brand-mark{ width:34px; height:34px; flex:none; }
+.brand-mark{ width:42px; height:42px; flex:none; }
 .dove-icon{ width:100%; height:100%; fill:var(--accent); }
+.brand-mark img.logo-img{ width:100%; height:100%; object-fit:contain; border-radius:6px; }
 .brand-text{ display:flex; flex-direction:column; line-height:1.1; }
 .brand-name{ font-family:var(--font-display); font-size:1.15rem; font-weight:600; letter-spacing:0.02em; }
 .brand-sub{ font-size:0.62rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--text-soft); }
@@ -223,8 +224,9 @@ html[data-theme="dark"] .mode-toggle .icon-moon{ display:block; }
   font-size:11.5px; letter-spacing:0.05em;
   fill:var(--accent);
 }
-.badge-icon{ position:absolute; width:56px; height:56px; }
+.badge-icon{ position:absolute; width:72px; height:72px; }
 .badge-icon .dove-icon{ fill:var(--text); }
+.badge-icon img.logo-img{ width:100%; height:100%; object-fit:contain; border-radius:8px; }
 @keyframes spin{ to{ transform:rotate(360deg); } }
 @media (prefers-reduced-motion:reduce){ .badge-ring{ animation:none; } }
 
@@ -421,7 +423,7 @@ html[data-theme="dark"] .site-footer{ background:#080B22; }
   .mobile-nav{ display:flex; }
   .section{ padding:4.5rem 1.3rem; }
   .badge-wrap{ width:160px; height:160px; }
-  .badge-icon{ width:44px; height:44px; }
+  .badge-icon{ width:56px; height:56px; }
 }
 
 @media (max-width:480px){
